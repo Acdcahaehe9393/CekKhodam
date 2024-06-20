@@ -12,7 +12,7 @@
 
 
 body {
-    background-image: url(/cek_Khodam//assets/khodam.jpg);
+    background-image: url(.../cek_Khodam//assets/khodam.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
@@ -31,19 +31,19 @@ body {
 .card {
     background-color: rgba(147, 148, 171, 0.25);
     padding: 20px;
-    border: 1px solid whitesmoke; /* Border jingga ke kuningan */
+    border: 1px solid whitesmoke; 
     border-radius: 10px;
     width: 100%;
     max-width: 500px;
-    backdrop-filter: blur(10px); /* Blur lebih kuat */
-    position: relative; /* Untuk positioning spinner */
+    backdrop-filter: blur(10px); 
+    position: relative;
 }
 
 h1,
 p {
     font-family: MATURASC_1;
 
-    src: url(/cek_Khodam/font/MATURASC_1.TTF);
+    src: url(.../cek_Khodam/font/MATURASC_1.TTF);
     color: #ffffff;
     text-shadow:
     0 0 7px whitesmoke,
@@ -85,8 +85,8 @@ button {
 
 
 button:hover {
-    transform: translateY(-3px); /* Efek naik saat hover */
-    box-shadow:inset .2rem .2rem 1rem var(--primary-dark), /* Shadow lebih dalam saat hover */
+    transform: translateY(-3px); 
+    box-shadow:inset .2rem .2rem 1rem var(--primary-dark), 
               inset -.2rem -.2rem 1rem var(--primary-light);
 }
 
@@ -103,8 +103,8 @@ button:hover {
     position: absolute;
     top: 70%;
     left: 5%;
-    margin-top: -20px; /* Setengah dari tinggi */
-    margin-left: -20px; /* Setengah dari lebar */
+    margin-top: -20px; 
+    margin-left: -20px; 
 }
 .ip {
 	width: 10em;
