@@ -12,7 +12,7 @@
 
 
 body {
-    background-image: url(.../cek_Khodam//assets/khodam.jpg);
+    background-image: url(/assets/khodam.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
